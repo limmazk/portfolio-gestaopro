@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Portfolio da Empresa</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<div class="brand">
+				<div class="brand-media">
+					<img src="assets/logo-empresa.png" alt="Logo da Empresa" class="brand-logo">
+					<img src="assets/logomarca-scripthadder.png" alt="ScriptHadder" class="brand-partner">
+				</div>
+				<span class="brand-name">Nome da Empresa</span>
+			</div>
+			<button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">&#9776;</button>
+			<nav class="nav">
+				<a href="#sobre">Sobre</a>
+				<a href="#servicos">O que fazemos?</a>
+				<a href="#site">Site</a>
+				<a href="#contato">Contato</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="hero reveal">
+			<div class="container hero-inner">
+				<h1>Impulsionamos resultados com soluções sob medida</h1>
+				<p>Apresentamos a essência, proposta de valor e diferenciais da empresa de forma clara e objetiva.</p>
+				<div class="cta">
+					<a href="#contato" class="btn">Fale conosco</a>
+					<a href="#site" class="btn alt">Ver site</a>
+				</div>
+			</div>
+		</section>
+		<section id="sobre" class="section reveal">
+			<div class="container grid two">
+				<div class="reveal">
+					<h2>Sobre</h2>
+					<p>Somos uma empresa focada em entregar soluções eficientes e escaláveis, com foco em qualidade, prazos e uma experiência excepcional para nossos clientes.</p>
+					<ul class="bullets">
+						<li>Atuação orientada por dados e metas</li>
+						<li>Parcerias transparentes e de longo prazo</li>
+						<li>Equipe multidisciplinar e experiente</li>
+					</ul>
+				</div>
+				<div class="card highlight reveal">
+					<strong>Diferenciais</strong>
+					<ul>
+						<li>Atendimento humanizado</li>
+						<li>Arquiteturas modernas</li>
+						<li>Entrega contínua</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="servicos" class="section alt reveal">
+			<div class="container">
+				<h2>O que fazemos?</h2>
+				<div class="grid three">
+					<div class="card reveal">
+						<h3>Consultoria</h3>
+						<p>Mapeamos necessidades e desenhamos estratégias práticas para gerar impacto.</p>
+					</div>
+					<div class="card reveal">
+						<h3>Desenvolvimento</h3>
+						<p>Aplicações web e integrações com performance, segurança e escalabilidade.</p>
+					</div>
+					<div class="card reveal">
+						<h3>Suporte</h3>
+						<p>Monitoramento, melhoria contínua e evolução do seu produto digital.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="site" class="section reveal">
+			<div class="container grid two">
+				<div class="reveal">
+					<h2>Site</h2>
+					<p>Conheça o site oficial da empresa. Projeto planejado para conversão, velocidade e acessibilidade, desenvolvido pela ScriptHadder.</p>
+					<a href="https://example.com" target="_blank" rel="noopener" class="btn">Acessar site</a>
+				</div>
+				<div class="card reveal">
+					<strong>Em destaque</strong>
+					<p>Arquitetura otimizada para SEO, conteúdo claro e navegação fluida.</p>
+				</div>
+			</div>
+		</section>
+		<section id="contato" class="section alt reveal">
+			<div class="container">
+				<h2>Contato</h2>
+				<form class="contact" id="contact-form">
+					<div class="row">
+						<input type="text" id="nome" placeholder="Seu nome" required>
+						<input type="email" id="email" placeholder="Seu e-mail" required>
+					</div>
+					<textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+					<button type="submit" class="btn">Enviar</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<div class="footer-grid">
+				<div class="footer-col">
+					<div class="brand">
+						<div class="brand-media">
+							<img src="assets/logo-empresa.png" alt="Logo da Empresa" class="brand-logo">
+							<img src="assets/logomarca-scripthadder.png" alt="ScriptHadder" class="brand-partner">
+						</div>
+						<span class="brand-name">Nome da Empresa</span>
+					</div>
+					<p class="footer-text">Soluções digitais focadas em resultado, performance e experiência.</p>
+				</div>
+				<nav class="footer-col">
+					<strong class="footer-title">Links</strong>
+					<a href="#sobre">Sobre</a>
+					<a href="#servicos">Serviços</a>
+					<a href="#site">Site</a>
+					<a href="#contato">Contato</a>
+				</nav>
+				<div class="footer-col">
+					<strong class="footer-title">Contato</strong>
+					<a href="mailto:contato@empresa.com">contato@empresa.com</a>
+					<a href="tel:+550000000000">(00) 00000-0000</a>
+					<p>Rua Exemplo, 123 - Centro<br>Cidade/UF</p>
+				</div>
+				<div class="footer-col">
+					<strong class="footer-title">Redes</strong>
+					<div class="social">
+						<a href="https://instagram.com/empresa" target="_blank" rel="noopener">Instagram</a>
+						<a href="https://linkedin.com/company/empresa" target="_blank" rel="noopener">LinkedIn</a>
+						<a href="https://facebook.com/empresa" target="_blank" rel="noopener">Facebook</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<span>© <span id="year"></span> Nome da Empresa</span>
+				<span>Feito pela ScriptHadder</span>
+			</div>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
